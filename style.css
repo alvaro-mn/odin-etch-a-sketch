@@ -1,0 +1,15 @@
+#board {
+    width: 900px;
+    height: 900px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: auto;
+}
+
+.pixel {
+    border: 2px solid black;
+}
+
+.active {
+    background-color: cornflowerblue;
+}
