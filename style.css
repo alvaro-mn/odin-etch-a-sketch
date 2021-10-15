@@ -1,15 +1,40 @@
-#board {
-    width: 900px;
-    height: 900px;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#eas-body {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: orange solid 5px;
+    border-radius: 10px;
+}
+
+#screen {
+    width: 85%;
+    height: 85%;
     display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: auto;
+}
+
+#clear-btn {
+    padding: 8px 32px;
+    background-color: orange;
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: -55px;
 }
 
 .pixel {
-    border: 2px solid black;
+    background-color: white;
 }
 
 .active {
-    background-color: cornflowerblue;
+    background-color: grey;
 }
